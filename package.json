@@ -3,20 +3,14 @@
   "main": "./lib/linter-scalastyle",
   "version": "1.4.0",
   "description": "Lint Scala on the fly, using scalastyle.",
-  "repository": "https://github.com/gabro/linter-scalastyle",
+  "repository": "https://github.com/buildo/linter-scalastyle",
   "license": "MIT",
   "engines": {
     "atom": ">0.90.0"
   },
   "dependencies": {
     "atom-package-deps": "^4.0.1",
-    "atom-linter": "^4.3.0",
-    "glob": "^7.0.0",
-    "mkdirp": "^0.5.1"
-  },
-  "devDependencies": {
-    "promised-exec": "1.0.1",
-    "rimraf": "^2.5.0"
+    "atom-linter": "^4.3.0"
   },
   "package-deps": [
     "linter"
