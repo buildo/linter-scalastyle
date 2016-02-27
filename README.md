@@ -33,7 +33,5 @@ You can tweak it in `config.cson` or via the package manager GUI.
 
 ```
 
-## TODO
-
 ## Credits
 The work on linter-scalastyle is based on [AtomLinter/linter-scalac](https://github.com/AtomLinter/linter-scalac).
