@@ -27,7 +27,7 @@ You can tweak it in `config.cson` or via the package manager GUI.
   'sourceDir': 'src/main'
 
   # If you want to add options to the scalastyle command, this is your chance
-  'scalastyleOptions': '-Xlint -P:wartremover:traverser:org.brianmckenna.wartremover.warts.Unsafe'
+  'scalastyleOptions': ''
 
 ```
 
