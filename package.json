@@ -1,7 +1,7 @@
 {
   "name": "linter-scalastyle",
   "main": "./lib/linter-scalastyle",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Lint Scala on the fly, using scalastyle.",
   "repository": "https://github.com/buildo/linter-scalastyle",
   "license": "MIT",
