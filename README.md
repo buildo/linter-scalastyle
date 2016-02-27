@@ -1,7 +1,7 @@
 # linter-scalastyle
 A scala linter for [Atom Linter](https://github.com/atom-community/linter) using scalastyle
 
-[![Build Status](https://travis-ci.org/buildo/linter-scalastyle.svg?branch=master)](https://travis-ci.org/buildo/linter-scalastyle)
+[![Travis CI Status](https://img.shields.io/travis/buildo/linter-scalastyle/master.svg?style=flat-square&label=os%20x)](https://travis-ci.org/buildo/linter-scalastyle)
 
 ## Installation
 
