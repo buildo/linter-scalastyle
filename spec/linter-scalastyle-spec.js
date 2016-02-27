@@ -53,5 +53,17 @@ describe('linter-scalastyle', () => {
       );
     });
 
+    it('lints a source file with an error without column', () => {
+      waitsForPromise(() =>
+        lintProject('project3', 'src/main/scala/project/Main.scala')
+        .then(messages => {
+          expect(messages.length).toEqual(2);
+          expect(messages[0].type).toEqual('error');
+          expect(messages[0].text)
+            .toEqual('Use correct indentation');
+        })
+      );
+    });
+
   });
 });
