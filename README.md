@@ -1,9 +1,7 @@
 # linter-scalastyle
 A scala linter for [Atom Linter](https://github.com/atom-community/linter) using scalastyle
 
-
-> ### WARNING
-> This is an experimental prject. There's currently no tests in place, so use at your own risk.
+[![Build Status](https://travis-ci.org/buildo/linter-scalastyle.svg?branch=master)](https://travis-ci.org/buildo/linter-scalastyle)
 
 ## Installation
 
