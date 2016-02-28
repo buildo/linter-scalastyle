@@ -9,6 +9,11 @@ A scala linter for [Atom Linter](https://github.com/atom-community/linter) using
 apm install linter-scalastyle
 ```
 
+## Screenshot
+
+<img width="808" alt="screen shot 2016-02-28 at 12 29 34 am" src="https://cloud.githubusercontent.com/assets/691940/13378562/94525792-de0a-11e5-91f8-e03990c041ba.png">
+
+
 ## Configuration
 
 Here's the default config.
