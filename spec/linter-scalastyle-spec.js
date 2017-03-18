@@ -13,12 +13,11 @@ describe('linter-scalastyle', () => {
 
   const lintProject = (project, file) => {
     const projectPath = path.join(fixturesPath, project);
-    const targetFile = path.join(fixturesPath, project, file);
+    const targetFile = path.join(projectPath, file);
 
     atom.project.setPaths([projectPath]);
 
-    return atom.workspace.open(projectPath)
-      .then(() => atom.workspace.open(targetFile))
+    return atom.workspace.open(targetFile)
       .then(lint);
   }
 
